@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Program - Red Hat High School Internship</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About the Program</a></li>
+                <li><a href="experience.html">My Experience</a></li>
+                <li><a href="future.html">Future Interns</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About the Program</h2>
+            <p>The Red Hat High School Internship Program provides a unique opportunity for high school students to gain hands-on experience across various aspects of a leading open-source company. This section highlights my weekly activities, insights, and experiences throughout the internship.</p>
+        </section>
+
+        <section id="weekly-highlights">
+            <h3>Weekly Highlights</h3>
+
+            <div class="week" id="week1">
+                <h4>Week 1</h4>
+                <p>This week focuses on essential skills and strategies to prepare for future careers. Activities include workshops on confidence, networking, and professional presentation.</p>
+                <button class="expand-button" onclick="toggleDetails('week1-details', this)">Show More</button>
+                <div class="week-details" id="week1-details" style="display: none;">
+                    <h5>Highlights of Week 1</h5>
+                    <ul>
+                        <li>Introduction to Red Hat's culture and values</li>
+                        <li>Met with mentors and team members</li>
+                        <li>Participated in initial training sessions and workshops on professional skills</li>
+                        <li>Office tour and setting up workstations</li>
+                        <li>Engaged in team-building activities and networking</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="week" id="week2">
+                <h4>Week 2</h4>
+                <p>This week dives into the world of technology and innovation through hands-on activities and workshops, job shadowing sessions, and interactive learning labs.</p>
+                <button class="expand-button" onclick="toggleDetails('week2-details', this)">Show More</button>
+                <div class="week-details" id="week2-details" style="display: none;">
+                    <h5>Highlights of Week 2</h5>
+                    <ul>
+                        <li>Participated in job shadowing sessions to gain insights into various tech roles</li>
+                        <li>Engaged in learning labs on web development, GitHub, UX design, and pattern recognition</li>
+                        <li>Attended workshops and talks on tech careers, hardware, and artificial intelligence</li>
+                        <li>Connected with mentors and professionals to understand workflows and career paths</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="week" id="week3">
+                <h4>Week 3</h4>
+                <p>This week focuses on exploring the pivotal role of data in the digital age through engaging sessions on data, marketing, and advanced applications of artificial intelligence (AI).</p>
+                <button class="expand-button" onclick="toggleDetails('week3-details', this)">Show More</button>
+                <div class="week-details" id="week3-details" style="display: none;">
+                    <h5>Highlights of Week 3</h5>
+                    <ul>
+                        <li>Participated in job shadowing sessions to gain insights into various roles involving data</li>
+                        <li>Engaged in info sessions on topics such as data analytics, marketing, and communications</li>
+                        <li>Attended learning labs on data analytics and AI foundations</li>
+                        <li>Joined interactive sessions on unexpected engineering uses for data and AI engineer panel discussions</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="week" id="week4">
+                <h4>Week 4</h4>
+                <p>This week focuses on understanding Red Hat's culture, working on final projects, and learning about the company's values and practices.</p>
+                <button class="expand-button" onclick="toggleDetails('week4-details', this)">Show More</button>
+                <div class="week-details" id="week4-details" style="display: none;">
+                    <h5>Highlights of Week 4</h5>
+                    <ul>
+                        <li>Worked on final projects, including "Day in the Life" and group portfolios</li>
+                        <li>Scheduled meetings with selected Red Hat employees to gain insights</li>
+                        <li>Engaged in activities to learn about Red Hat's culture and values</li>
+                        <li>Attended info sessions about AI and other advanced topics</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Red Hat High School Internship Experience and Insights | Created by Sai Sahasra Peddabuddi</p>
+    </footer>
+    <script>
+        function toggleDetails(id, button) {
+            var details = document.getElementById(id);
+            if (details.style.display === "block") {
+                details.style.display = "none";
+                button.textContent = "Show More";
+            } else {
+                details.style.display = "block";
+                button.textContent = "Show Less";
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+

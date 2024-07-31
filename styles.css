@@ -1,0 +1,182 @@
+body {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFAF3; /* Light cream background */
+    color: #555555; /* Dark grey text */
+}
+
+nav {
+    background-color: #CC0000; /* Red */
+    color: #ffffff; /* White */
+    padding: 0.5rem;
+    border-bottom: 2px solid #FF6F61; /* Pastel red */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #CC0000; /* Red */
+    color: #ffffff; /* White */
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: hwb(5 38% 0%); /* Pastel red */
+    color: #CC0000; /* Red */
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #ffffff; /* White */
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid #CC0000; /* Red border */
+}
+
+footer {
+    background-color: #CC0000; /* Pastel red */
+    color: #ffffff; /* White */
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 3px solid #CC0000; /* Red border */
+}
+
+/* Weekly Highlights */
+h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #CC0000; /* Red */
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+}
+
+.week {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #FFF0F5; /* Lavender blush */
+    border-left: 5px solid #CC0000; /* Red border */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.week h4 {
+    color: #CC0000; /* Red */
+    margin-bottom: 1rem;
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+}
+
+.week ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.week ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.expand-button {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    background-color: #CC0000; /* Red */
+    color: #ffffff; /* White */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.expand-button:hover {
+    background-color: #FF6F61; /* Pastel red */
+    color: #CC0000; /* Red */
+}
+
+.week-details {
+    display: none;
+    margin-top: 1rem;
+    background-color: #FFF0F5; /* Lavender blush */
+    padding: 1rem;
+    border-radius: 8px;
+    border: 2px solid #CC0000; /* Red border */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Slideshow container */
+.slide-container {
+    position: relative;
+    max-width: 600px; /* Adjust width as needed */
+    margin: auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.slides {
+    display: none;
+    width: 100%;
+}
+
+.active {
+    display: block;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
